@@ -10,14 +10,21 @@ tags:
   - Portfolio
   - Blog
 ---
+<style>
+  pre{
+    border-radius: 5px;
+    margin: 0 2px;
+    background-color: #f2f2f2;
+  }
+</style>
 
-### Motivations
+#### Motivations
 
 As a last year engineering student, it became more and more necessary for me to have an online portfolio. A website portfolio is a practical and interactive way to showcase your work to recruiters and fellow students.
 
 In this first ever blog post, I will go over the creation process of this website that can be followed as a tutorial.
 
-### Technologies
+#### Technologies
 
 To create our portfolio, we will be using GitHub pages to host our page and Astro.build as a template provider.
 
@@ -36,7 +43,7 @@ To not be redundant and concise, I will provide a link to each services relevant
 Start by creating a working folder on your local device.
 This folder will contain all your code and assets.
 
-### Selecting a template and initiating your project
+#### Selecting a template and initiating your project
 
 Head over to [Astro's website](https://www.astro.build) and select a design you enjoy and that seems relevant to your industry (make sure to select a different template than mine, I have no reason for that request).
 
@@ -46,7 +53,7 @@ Make sure to load your project in the folder you previously created.
 
 Before moving on to the next part, make sure that the folder you previously created contains the Astro template files.
 
-### Initializing your Git repository
+#### Initializing your Git repository
 
 A GitHub repository is an online folder containing the files of a particular project. 
 Those online files are the ones that will be used to display your website.
@@ -72,7 +79,7 @@ When done, we must upload our files.
 > git push
 ```
 
-### Setting your Astro template as a GitHub page
+#### Setting your Astro template as a GitHub page
 
 We can deploy our Astro website using GitHub Actions.
 
@@ -145,17 +152,11 @@ jobs:
 Everything should now be online ! 
 (This was a shameless copy of [Astro's tutorial](https://docs.astro.build/en/guides/deploy/github/))
 
-### Done !
+#### Done !
 
 Now, it's your turn to customize your portfolio ! Add pictures, blog posts about your past projects, introduce yourself.
 
 All pages are customizable using basic HTML5 and CSS3.
 
 If you're not too familiar with those technologies, they are really easy to learn and understand, so give it a shot !
-
-
-
-
-
-
 

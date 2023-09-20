@@ -42,10 +42,10 @@ const projects = (await getCollection('work'))
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Thibault Ellong smiling in a suit and red tie"
 					width="480"
 					height="620"
-					src="/assets/PdPPro.jpg"
+					src="/assets/PdPPro_red.png"
 				/>
 			</header>
 
@@ -81,20 +81,21 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Awards and Events</h3>
 					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
+						Results in hackathons and competitions and events I attended.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							[<a href="https://www.linkedin.com/feed/update/urn:li:activity:7048685644075687937?utm_source=share&utm_medium=member_desktop" style="text-decoration:none;">2nd place | Genopole</a>, <a href="https://www.linkedin.com/posts/thibault-ellong_openai-world-tour-english-below-jai-activity-7068128606375288832-kSQQ?utm_source=share&utm_medium=member_desktop" style=" text-decoration:none;">Meeting Sam Altman</a>].map((brand) => (
+							
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
+								
 							))
 						}
 					</Grid>
@@ -123,7 +124,9 @@ const projects = (await getCollection('work'))
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
+		background-color: var(--gray-999);
+		box-shadow: 10px var(--shadow-sm);
+		
 	}
 
 	@media (min-width: 50em) {
