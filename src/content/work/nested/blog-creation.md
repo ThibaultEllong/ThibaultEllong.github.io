@@ -95,7 +95,7 @@ Customize it to fit your website's URL.
 
 Create the folders and the file. Then paste this code:
 
-'
+```yml
 name: Deploy to GitHub Pages
 
 on:
@@ -135,7 +135,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-'
+```
 3.On GitHub, go to your repository’s Settings tab and find the Pages section of the settings.
 
 4.Choose GitHub Actions as the Source of your site.
@@ -143,7 +143,7 @@ jobs:
 5.Commit the new workflow file and push it to GitHub.
 
 Everything should now be online ! 
-(This was a shameless copy of Astro's tutorial)
+(This was a shameless copy of [Astro's tutorial](https://docs.astro.build/en/guides/deploy/github/))
 
 ### Done !
 
