@@ -58,19 +58,19 @@ First create a project on GitHub following [this tutorial](https://pages.github.
 
 Then, clone your repository:
 
-'''terminal
+```bash
 > cd /your_local_project_folder
 > git clone https://www.github.com/<USERNAME>/<USERNAME>.github.io.git
-'''
+```
 This links your local folder to the remote repository.
 
 When done, we must upload our files.
 
-'''terminal
+```bash
 > git add * 
 > git commit -m "Initial Website Commit"
 > git push
-'''
+```
 
 ### Setting your Astro template as a GitHub page
 
@@ -78,13 +78,13 @@ We can deploy our Astro website using GitHub Actions.
 
 1. Copy/Paste and modify this block of code to your astro.config.mjs file.
 
-'''msj
+```msj
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
   site: 'https://astronaut.github.io',
 })
-'''
+```
 
 This file should be located at the root of your project (in the original folder).
 
