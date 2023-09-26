@@ -1,7 +1,7 @@
 ---
 title: What makes for a good design ?
 publishDate: 2023-09-26 11:40:00
-img: /blog1/miniature.png
+img: /blog2/miniature_red.png
 img_alt: Good design
 description: |
   Homework 1: Affordance, Gestalt's laws and Dark Designs
