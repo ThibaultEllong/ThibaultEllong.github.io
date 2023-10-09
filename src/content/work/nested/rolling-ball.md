@@ -25,36 +25,66 @@ Check out a short gameplay:
 
 ![Demo of the game](/roll-a-ball/Demo_1.gif)
 
+---
+
 #### Starting the project
 
-I created this project in Unity's 2022.3.9f1 version as it's stable.
+I created this project in *Unity's 2022.3.9f1* version as it's stable.
 
 ![Creation of the project](/roll-a-ball/creation_project.png)
 
 I used the 3D game template.
 
+---
+
 #### Setup
 
 Before implementing any mechanics to the game, we must create all the assets.
 
-First, I made a basic square arena with walls. It is better to start simple and build more complex levels once every mechanics works properly.
+First, I made a basic square arena with walls. It is better to **start simple and build more complex levels once every mechanics works properly**.
 
-I then created the player object, a ball.
+I then created the player object, **a ball**.
 
 Before starting scripting the movement, it is necessary to add the proper colliders to assets:
-- the ball must be assigned a rigidbody collider and a ball collider. The rigidbody is necessary to detect collision and trigger actions.
+- the ball must be assigned a *rigidbody collider and a ball collider*. The rigidbody is necessary to detect collision and trigger actions.
 
-- the walls and ground need a box collider to prevent the ball from going throught them as well as defining collisions and triggers.
+- the walls and ground need a *box collider* to prevent the ball from going throught them as well as defining collisions and triggers. Moreover, I assigned appropriate labels to both object types ("wall" & "ground" label).
+
+![Creation of arena and ball](/roll-a-ball/arena_ball.png)
+
+---
 
 #### Movement Mechanics
 
-Let's implement our first game mechanics: the movement of the ball.
+Let's implement our first game mechanics: the **movement of the ball**.
 
 As our 3D game is played in a 2D plane, we only need a Vector2 movement vector for our input.
 
 However, the ball is 3D and thus needs a Vector3 for controls. 
 
 We finally apply our movement inputs to the rigidbody of the ball to make it move.
+
+![Code for movement](/roll-a-ball/move_code.png)
+
+---
+
+#### Collectible Object
+
+To give a goal to our game, I introduced collectible objects in the shape of small cubes.
+
+Each of these cubes stems from the same prefab asset so the modification to the prefab if applied to all squares automatically.
+
+I applied to each of them:
+- a "PickUp" label for referencing them in our code.
+- a rigidbody and a box collider for collision and trigger detection.
+
+![Code for collision with collectibles](/roll-a-ball/triggerEnterCollectible.png)
+
+--- 
+
+
+
+
 
 
 
