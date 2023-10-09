@@ -78,9 +78,25 @@ I applied to each of them:
 - a "PickUp" label for referencing them in our code.
 - a rigidbody and a box collider for collision and trigger detection.
 
-![Code for collision with collectibles](/roll-a-ball/triggerEnterCollectible.png)
+I defined a OnTriggerEnter function that sets the behavior of the assets when the rigidbody of the ball enters the collider of the cubes.
+
+If that happens, we deactivate the object that collided with the ball, rendering it invisible. We also update the score.
+
+'''c#
+ private void OnTriggerEnter(Collider other)
+ {
+     if (other.gameObject.CompareTag("PickUp"))
+     {
+         other.gameObject.SetActive(false);
+         count = count + 1;
+         SetCountText();
+     }
+ }
+'''
 
 --- 
+
+#### 
 
 
 
