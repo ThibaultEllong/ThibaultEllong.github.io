@@ -82,7 +82,7 @@ I defined a OnTriggerEnter function that sets the behavior of the assets when th
 
 If that happens, we deactivate the object that collided with the ball, rendering it invisible. We also update the score.
 
-'''c#
+```c#
  private void OnTriggerEnter(Collider other)
  {
      if (other.gameObject.CompareTag("PickUp"))
@@ -92,7 +92,7 @@ If that happens, we deactivate the object that collided with the ball, rendering
          SetCountText();
      }
  }
-'''
+```
 
 --- 
 
