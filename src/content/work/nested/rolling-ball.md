@@ -64,7 +64,21 @@ However, the ball is 3D and thus needs a Vector3 for controls.
 
 We finally apply our movement inputs to the rigidbody of the ball to make it move.
 
-![Code for movement](/roll-a-ball/move_code.png)
+```c#
+  void OnMove(InputValue movementValue)
+  {
+      Vector2 movementVector = movementValue.Get<Vector2>();
+      movementX = movementVector.x;
+      movementY = movementVector.y;
+  }
+
+  private void FixedUpdate()
+  {
+      Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+      rb.AddForce(movement * speed);
+
+  }
+```
 
 ---
 
@@ -96,7 +110,78 @@ If that happens, we deactivate the object that collided with the ball, rendering
 
 --- 
 
-#### 
+#### Winning (or Losing) the game
+
+If the player reaches 10 points (collecting all the cubes), he wins and the game resets. 
+
+On the other hand, if he touches the walls, he loses.
+
+In this implementation, we define a few functions:
+
+- TriggerLose(): Makes the objects disappear and displays the Lose message when the ball hits a wall. It then resets the level by calling ResetLevel 3 seconds later.
+
+- ResetLevel(): Reloads the scene.
+
+- TriggerLose(): Displays the lose text and deactivates the collectibles.
+
+- SetCountText(): Displays the current score of the player. When a collectible collision is triggered, the score is incremented.
+When the player reaches 10 points, the win text is displayed and the level is reset 3 seconds later.
+
+- DeactivateObjectsWithTag(): Disables all the objects with the parameter tag.
+
+```c#
+private void OnCollisionEnter(Collision collision)
+{
+    if (collision.gameObject.CompareTag("Wall"))
+    {
+        TriggerLose();
+        Invoke("ResetLevel", 3);
+    }
+}
+
+public void ResetLevel()
+{
+    int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    SceneManager.LoadScene(currentSceneIndex);
+}
+
+void TriggerLose()
+{
+    loseTextObject.SetActive(true);
+    DeactivateObjectsWithTag("PickUp");
+}
+
+void SetCountText()
+{
+    countText.text = "Count: " + count.ToString();
+
+    if (count >= 10)
+    {
+        winTextObject.SetActive(true);
+        Invoke("ResetLevel", 3);
+    }
+}
+
+void DeactivateObjectsWithTag(string tag)
+{
+    GameObject[] gameObjects = GameObject.FindGameObjectsWithTag(tag);
+    foreach (GameObject gameObject in gameObjects)
+    {
+        gameObject.SetActive(false);
+    }
+}
+
+```
+
+---
+
+#### Building the game
+
+Once done with coding and perfecting your game, we must build it to make it an executable game.
+
+To do so, we go to "Build settings". As we want to play this game on a computer, we select Windows/MacOS/Linux.
+
+
 
 
 
