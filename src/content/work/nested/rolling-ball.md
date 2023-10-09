@@ -12,4 +12,6 @@ tags:
 
 ---
 
+![Demo of the game](/roll-a-ball/Demo_1.gif)
+
 
