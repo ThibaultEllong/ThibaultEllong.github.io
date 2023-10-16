@@ -1,7 +1,7 @@
 ---
 title: HCI Research, the Ultimate Display & Interaction Paradigms
 publishDate: 2023-09-26 11:40:00
-img: /blog2/miniature_red.png
+img: /blog3/minia.png
 img_alt: Good design
 description: |
   Homework 2: HCI Research, the Ultimate Display & Paradigms

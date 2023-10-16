@@ -1,7 +1,7 @@
 ---
 title: Lab Report | Illustrations on Image Encryption & Steganography
 publishDate: 2023-10-13 17:18:00
-img: /blog2/miniature_red.png
+img: /labs/lab1_dct/minia.png
 img_alt: Steganography
 description: |
  Course: Digital Content Protection
