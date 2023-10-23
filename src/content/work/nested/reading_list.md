@@ -13,9 +13,9 @@ tags:
 
 #### AR/VR
 
-**Eye Tracking: **
-- ![Eye-Gaze Tracking ](https://pupil-labs.com/blog/news/what-is-eye-tracking/)
-- ![Meta's Aria Project ](https://www.projectaria.com/)
+**Eye Tracking:**
+- [Eye-Gaze Tracking ](https://pupil-labs.com/blog/news/what-is-eye-tracking/)
+- [Meta's Aria Project ](https://www.projectaria.com/)
 
 ---
 
