@@ -25,5 +25,8 @@ Augmented & Virtual Reality are booming research domains right now. To keep myse
 
 Computer Vision is a really diverse branch of the AI/ML research field. It already has and will, in the next few years, become a prominent area of interest and needs for industries and customers alike as more autonomous systems will require a finer and finer understanding of their surroundings. Thus, it is important to stay up-to-date on the latest innovations.
 
+**Courses:**
+-[Understanding Deep Learning by Simon J.D. Prince](https://udlbook.github.io/udlbook/)
+
 **Segmentation:**
 - [Meta's Segment Anything Model (SAM)](https://ai.meta.com/blog/segment-anything-foundation-model-image-segmentation/)
