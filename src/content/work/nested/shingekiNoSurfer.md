@@ -82,6 +82,56 @@ I then wrote a script for the basic motion (jumping, running, sliding, changing 
 
 Subway Surfer uses randomly generated environments to create its levels ([about the difference between random and procedural environments](https://www.gamedeveloper.com/design/procedural-vs-randomly-generated-content-in-game-design)). This technique allows for infinite replayability as every restart is a new level.
 
+I wanted to recreate this endless runner structure.
+
+I first proceeded by creating 4 sections: 100 meters long corridors that would be placed sequentially in the world to create a corridor. Optimally, one can create tens of different sections to make the game seem procedurally generated.
+
+I tried to have a particular obstacle type for each section to vary the gameplay and make it less repetitive.
+
+---
+
+##### Ostacles and collectibles
+
+The first obvious obstacle was the titans. They are the first antagonist of the show and seemed easy to implement.
+I downloaded a 3D model of a titan, animated it and placed it in the world (unfortunately, the animation didn't work and I was running out of time to fix it).
+
+I also imported a medieval cart model over which you can jump or under which you can slide.
+
+Finally, the rest of the obstacles are the buildings themselves. The player must be careful to calculate properly the length of his jumps and switch lanes at the proper moment not to run into a wall.
+
+Moreover, if the player switches lane at the incorrect time and hits a side wall, he loses hp. When the health reaches 0, he dies.
+
+##### An appealing gameplay
+
+I tried to create a compelling experience by creating a face paced game, with good graphics and snappy movement.
+
+I think this last part is the one I nailed the best.
+
+You can jump, slide, switch lane and the lan you're in conditions where you can go next (left to right when jumping).
+
+It's your turn to play and give me feedback about it !
+
+---
+
+Thank you for reading this short post.
+
+My first experience at creating a videogame was quite interesting and very formative.
+I like challenges and be ambitious when doing something new.
+
+The game isn't perfect and a bit buggy on certain collisions but I'm happy about how it turned out!
+
+You can find the link to the GitHub repository [here](https://github.com/ThibaultEllong/AttackOnSurfers/tree/main)
+
+---
+
+#### Bibliography
+
+- [Making a Subway SurferS game on Unity3D by Unity City](https://www.youtube.com/watch?v=4iMvBkaG-Jw&ab_channel=UnityCity)
+- [Making an Endless Runner by Jimmy Vegas](https://www.youtube.com/watch?v=u5hRtTEhnOA&list=PLZ1b66Z1KFKit4cSry_LWBisrSbVkEF4t&ab_channel=JimmyVegas)
+
+
+
+
 
 
 
