@@ -76,10 +76,10 @@ However, Goddard & Davis might have only been a few decades too early, as many d
 
 Indeed, many similarities can be found between the two controllers:
 
-- Motion Sensors: The remote can be used by spatial movements of the controller.
-- Ability to Point the Screen: One of the most prominent feature of the Wii is the ability to control the cursor by simply pointing to where we want to click.
-- One Handed controls: Both controllers can be used using a single hand.
-- Two Hand Controls: However, when held horizontally, both controllers can be used as a single remote.
+- **Motion Sensors**: The remote can be used by spatial movements of the controller.
+- **Ability to Point the Screen**: One of the most prominent feature of the Wii is the ability to control the cursor by simply pointing to where we want to click.
+- **One Handed controls**: Both controllers can be used using a single hand.
+- **Two Hand Controls**: However, when held horizontally, both controllers can be used as a single remote.
 
 So beside the now obvious similarities, what could explain the difference in success that both technologies faced ?
 
@@ -101,7 +101,7 @@ It is important to look at the failures from the past to not reproduce them.
 
 - [The Ultimate Display](https://www.semanticscholar.org/paper/The-Ultimate-Display-Sutherland/dce55f83dd425c68e5d1c1714dd0c8bbb43e54d9)
 - [Wikipedia's Power Glove page](https://fr.wikipedia.org/wiki/Power_Glove)
-- [Development of an Eye Tracking-Based Human-Computer Interface for Real-Time Applications](https://www.mdpi.com/1424-8220/19/16/3630).
+- [Development of an Eye Tracking-Based Human-Computer Interface for Real-Time Applications](https://www.mdpi.com/1424-8220/19/16/3630)
 
 ---
 
