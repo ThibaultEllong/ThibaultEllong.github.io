@@ -1,7 +1,7 @@
 ---
 title: Reading List | Computer Vision & AR/VR
 publishDate: 2023-10-23 09:31:00
-img: /blog3/minia.png
+img: /readingList/minia.jpg
 img_alt: Reading List
 description: |
   An updated list of articles and papers I found interesting and want to keep on hand

@@ -1,7 +1,7 @@
 ---
 title: Unity | Attack On Surfers
 publishDate: 2023-10-24 11:39:00
-img: /labs/lab2_filtering/minia.png
+img: /game_unity/minia.png
 img_alt: SIFT
 description: |
  Course: Augmented & Virtual Reality

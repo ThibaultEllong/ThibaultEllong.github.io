@@ -1,7 +1,7 @@
 ---
 title: End Of Study Project | Pathological Lung Data generation using CycleGan
 publishDate: 2023-10-23 16:54:00
-img: /labs/lab2_filtering/minia.png
+img: /pfe/minia.jpg
 img_alt: SIFT
 description: |
  Course: High Tech Imaging

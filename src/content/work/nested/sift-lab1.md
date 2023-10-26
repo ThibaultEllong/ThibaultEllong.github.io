@@ -1,7 +1,7 @@
 ---
 title: Lab 1 | Recognition of Object Instances 
 publishDate: 2023-10-23 16:54:00
-img: /labs/lab2_filtering/minia.png
+img: /sift_labs/minia.jpg
 img_alt: SIFT
 description: |
  Course: Multimedia Indexing
