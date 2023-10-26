@@ -18,14 +18,15 @@ tags:
   }
 </style>
 
----
 
 As part of my Augmented & Virtual Reality master's diploma, I had to develop a video game using the game engine Unity, from scratch.
 Without any prior knowledge and as a mostly autonomous project, I had to learn by myself most of the advanced scripting and game mechanic techniques used by Unity in order to create a compelling game.
 
 In this blog post, I will go over the creation process of my game: Attack On Surfers
 
-All the code of the game can be read and downloaded [here]().
+Check out a demo gameplay [here](https://youtu.be/gg_-t6PEFp8).
+
+All the code of the game can be read and downloaded [here](https://github.com/ThibaultEllong/AttackOnSurfers/tree/main).
 
 ---
 
@@ -73,7 +74,7 @@ The game had to have 4 main components:
 
 To create my character, I went on Adobe's ![Mixamo website](https://www.mixamo.com/#/). This free library provides animations and 3D models as well as an automatic rigging tool.
 I selected this archer's model as it fitted the aesthetic I was going for:
-[Image archer]()
+[Image archer](/public/game_unity/archer.png)
 I didn't think too much about its appearance as I just needed it for the programming phase.
 
 I then wrote a script for the basic motion (jumping, running, sliding, changing lane) and animated it accordingly.
@@ -120,7 +121,6 @@ I like challenges and be ambitious when doing something new.
 
 The game isn't perfect and a bit buggy on certain collisions but I'm happy about how it turned out!
 
-You can find the link to the GitHub repository [here](https://github.com/ThibaultEllong/AttackOnSurfers/tree/main)
 
 ---
 
