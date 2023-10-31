@@ -26,3 +26,30 @@ Battery concerns, demand for larger screens for media consumption, and the focus
 So, what does the future hold for smartphones? It’s envisaged that advances in areas such as flexible display technologies, miniaturization, and wireless technology could significantly influence future smartphone design. With tech giants like Samsung and Huawei already showcasing foldable smartphones, it's beyond dispute that flexible displays are the future. This scale of flexibility could, intelligibly, lead to completely foldable or rollable smartphones, offering users larger screens without compromising portability.
 
 In conclusion, the evolution of mobile phones into highly sophisticated smartphones has been immensely influenced by technological advancements and consumer demands. The shape evolution, in particular, has been geared towards enhancing functionality, aesthetics, and portability. Going forward, smartphones are likely to adopt more flexible and compact forms as technology expands the boundaries of possibilities with foldable, rollable, and even wearable designs becoming more perfectly evolved realities than sci-fi fantasies. Therefore, the future of smartphones hinges on striking a balance between practical and physical design considerations, user needs, and the implementation of innovative technology.
+
+#### The Computer of the 21st Century by Mark Weiser
+
+Mark Weiser's essay, published in 1991 in Scientific American¹, sets out his vision of a world where computing becomes ubiquitous, i.e. integrated into the human environment in an invisible, natural way. He gives examples of technologies that make this vision a reality, such as tablets, wall-mounted screens, electronic badges and wireless sensors. He also discusses the social and ethical issues raised by this new form of computing, such as privacy, security, responsibility and cultural diversity.
+
+We already live in part in a world of ubiquitous computing, as we daily use connected objects that provide us with information or services without our having to pay attention to them. For example, our smartphones, smartwatches, voice assistants, thermostats, cars and refrigerators are all devices that communicate with each other and with the Internet to make our lives easier. We can access our personal data, contacts, diaries, entertainment and news from anywhere, at any time.
+
+However, we're still a long way from Weiser's complete vision, as there are still many challenges to overcome in order to make ubiquitous computing more harmonious, more adapted and more respectful of people. These challenges include:
+
+- Standardization and interoperability of communication protocols and formats between different devices and platforms.
+- Reliability and robustness of systems in the face of breakdowns, errors or malicious attacks.
+- Protection and control of personal data against risks of espionage, theft or manipulation.
+- Design and evaluation of human-machine interfaces that are intuitive, ergonomic and adapted to the context of use.
+- Consideration of user needs, preferences and values in the development and deployment of technologies.
+- Sensitizing and training users to the opportunities and limitations of ubiquitous computing.
+- Regulation and legislation of the legal, economic and social aspects of ubiquitous computing.
+
+In conclusion, Weiser's essay invites us to reflect on the role and impact of computing in our society. He shows us that ubiquitous computing is not simply a technical evolution, but a genuine cultural revolution that requires a multidisciplinary, participatory approach. He also reminds us that ubiquitous computing must be at the service of people, not the other way round.
+
+#### Killer Apps for HMD
+
+I will present some of the apps that need to happen to widly democratize Head-Mounted Displays:
+- A Hologram Calling App: The first app that I think would benefit the AR/VR space is spatial calls. This would consist of highly detailed 3D scans of the face or whole body of the callers. When calling, the hologram of the person you're talking to materializes in front of you. Its real world face and body movements are tracked and replicated on the 3D version in the call. This would simulate real-world conversations and would be really useful for corporate conferences.
+- Advanced Computer Vision Apps: Applications that would harness the power of computer vision for scene and object recognition could be insanely useful to the average consumer. They would allow for assistance in daily tasks, such as cooking or driving, but also in more technical settings such as changing a car's wheel or in industrial maintenance processes.
+- True Interconnected Experiences: Similar to what the movie Ready Player One envisioned, a real metaverse in which one could wander through different universes seamlessly and with breathtaking visuals and interactions would probably bring many people to buy themselves a HMD to play, talk, attend events, or work in the Metaverse.
+
+These three apps summarize to me the main concepts of what AR/VR should and will be as a technology. We're more or less close to reality for each of them but one day they might come true. But like everytime we tried to envision the future, they will probably come in unexpected shapes or forms, defined by the technological advancements of the future.
