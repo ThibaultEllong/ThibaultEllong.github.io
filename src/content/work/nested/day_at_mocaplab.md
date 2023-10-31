@@ -1,7 +1,7 @@
 ---
 title: A Day at Mocaplab
 publishDate: 2023-10-30 10:00:00
-img: /blog1/miniature.png
+img: /mocaplab/minia.jpg
 img_alt: Motion Capture
 description: |
   A Recap of our days at MocapLab's 

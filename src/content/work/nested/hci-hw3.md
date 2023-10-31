@@ -1,7 +1,7 @@
 ---
 title: Enhancing the Human Capabilities with Augmented Reality
 publishDate: 2023-10-31 10:55:00
-img: /blog3/minia.png
+img: /hw3/minia.jpg
 img_alt: Augmented Reality
 description: |
   Homework 3: Prototyping an Augmented Reality Application
